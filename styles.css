@@ -1,0 +1,51 @@
+*{
+ 
+    background-color: #f7cac9;
+}
+
+.calculator {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.input{
+    width: 200px;
+    height: auto;
+    font-size: 15px;
+    
+}
+
+input[type=text]{
+    
+    border-radius: 5px;
+    width: 175px;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.btn{
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    
+    background-color: aqua;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+
+.output {
+margin-top: 10px;
+}
+
