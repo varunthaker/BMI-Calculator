@@ -1,4 +1,6 @@
 
+
+
 function calculate(){
 
     let weight = document.getElementById("weight").value;
@@ -6,7 +8,7 @@ function calculate(){
     let result1 = document.getElementById("result1");
     let result2 = document.getElementById("result2");
 
-    height = height/100
+    height = height/100;
 
     let BMI = Math.round(weight/(Math.pow(height,2))*10)/10;
 
@@ -23,5 +25,13 @@ function calculate(){
             result2.innerHTML = "Obese: Control your Diet & Do Excercise"
         }
 
+    
 
+}
+
+function reset() {
+    weight.value = ""
+    height.value = ""
+    result1.innerText = "Your EMI:"
+    result2.innerText = "Result:"
 }
