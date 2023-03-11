@@ -24,5 +24,5 @@ Simple BMI Calculator developed using JavaScript, CSS & HTML.
 
 - results will displayes with the BMI value & recommendation
 
-<img width="312" alt="Win" src="https://user-images.githubusercontent.com/22621419/224493580-6f45bcfc-aeb7-4cb5-9824-d536490d09c4.png">
+<img width="312" alt="Win" src="https://github.com/varunthaker/BMI-Calculator/blob/ca21fa812ad5f65fb341c3b529c94ecbaf4538b4/MBI_Cal.png">
 
