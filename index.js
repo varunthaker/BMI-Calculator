@@ -1,12 +1,10 @@
 
-
-
 function calculate(){
 
-    let weight = document.getElementById("weight").value;
-    let height = document.getElementById("height").value;
-    let result1 = document.getElementById("result1");
-    let result2 = document.getElementById("result2");
+    var weight = document.getElementById("weight").value;
+    var height = document.getElementById("height").value;
+    var result1 = document.getElementById("result1");
+    var result2 = document.getElementById("result2");
 
     height = height/100;
 
@@ -24,8 +22,6 @@ function calculate(){
         } else if (BMI> 30) {
             result2.innerHTML = "Obese: Control your Diet & Do Excercise"
         }
-
-    
 
 }
 
